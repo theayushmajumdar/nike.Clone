@@ -1,1 +1,1 @@
-export{ defaults as Ayush } from './Ayush.jsx'
+export{ defaults as Hero} from './Hero.jsx'
