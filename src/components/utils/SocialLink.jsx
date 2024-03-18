@@ -12,4 +12,4 @@ const SocialLink = ({ icon }) => {
   )
 }
 
-export default SocialLink;
+export default SocialLink

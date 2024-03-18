@@ -20,4 +20,4 @@ const CartEmpty = ({ onCartToggle }) => {
   )
 }
 
-export default CartEmpty;
+export default CartEmpty

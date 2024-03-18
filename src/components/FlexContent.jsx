@@ -24,4 +24,4 @@ const FlexContent = ({ ifExists, endpoint: { title, heading, text, img, btn, url
   )
 }
 
-export default FlexContent;
+export default FlexContent

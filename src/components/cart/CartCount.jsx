@@ -23,4 +23,4 @@ const CartCount = ({ onCartToggle, totalQTY, onClearCartItems }) => {
   )
 }
 
-export default CartCount;
+export default CartCount

@@ -27,4 +27,4 @@ const Clips = ({ clip, imgsrc }) => {
   )
 }
 
-export default Clips;
+export default Clips
