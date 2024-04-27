@@ -25,7 +25,11 @@ const Footer = ({ footerAPI: { titles, links } }) => {
             ))}
           </div>
           <div className='mt-5 text-center'>
-            <p className='text-sm md:text-center'>Copyright<sup className='text-base font-bold'>&copy;</sup> All Reserved Rights <span className='font-semibold'>Made with ❤️ By Ayush Majumdar {Year}</span></p>
+          <p className='text-sm md:text-center'>
+           <span>Copyright - </span>
+           <span>All Reserved Rights - </span>
+           <span className='font-semibold'>Made with ❤️ By Ayush Majumdar {Year}</span>
+          </p>
           </div>
         </div>
       </footer>
