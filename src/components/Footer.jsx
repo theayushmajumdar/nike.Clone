@@ -28,7 +28,7 @@ const Footer = ({ footerAPI: { titles, links } }) => {
           <p className='text-sm md:text-center'>
            <span>Copyright - </span>
            <span>All Reserved Rights - </span>
-           <span className='font-semibold'>Made with ❤️ By Ayush Majumdar {Year}</span>
+           <span className='font-semibold'>Made with ❤️ By <a href='https://theayushmajumdar.vercel.app/'>Ayush Majumdar</a> {Year}</span>
           </p>
           </div>
         </div>
