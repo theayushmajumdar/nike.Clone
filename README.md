@@ -8,6 +8,7 @@ This project is a frontend web application that mimics the user interface of the
 - View product details and specifications.
 - Add products to the cart.
 - Customize the user experience with responsive design.
+- User Authentication
 
 ## Dependencies
 
