@@ -23,12 +23,26 @@ yarn install
 
 This will install all necessary dependencies listed in the `package.json` file.
 
-### List of Dependencies
+List of Dependencies
+React.js
+Tailwind CSS (CSS framework)
+Auth0 (User authentication)
+User Authentication
+This project utilizes Auth0 for user authentication. To add user authentication to the project after downloading the zip file, follow these steps:
 
-- React.js
-- Tailwind CSS (CSS framework)
-- etc.
+Visit Auth0 website and sign up for an account.
+Once logged in, create a new project in the Auth0 dashboard.
+Follow the instructions provided by Auth0 to configure your project settings, including setting up your application's callback URLs and allowed origins.
+Install the Auth0 React SDK in your project by running:
+bash
+Copy code
+npm install @auth0/auth0-react
+or
 
+bash
+Copy code
+yarn add @auth0/auth0-react
+Integrate Auth0 authentication into your React components using the provided SDK methods, such as useAuth0 hook for accessing authentication state and methods like login and logout.
 ## Getting Started
 
 To run the project locally on your system, follow these steps:
