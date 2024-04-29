@@ -25,6 +25,7 @@ This will install all necessary dependencies listed in the `package.json` file.
 
 ### List of Dependencies
 - React.js
+- Vite.js
 - Tailwind CSS (CSS framework)
 - Auth0 (User authentication)
 
