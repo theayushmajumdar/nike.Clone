@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
     "@heroicons/react": "^2.0.11",
     "@reduxjs/toolkit": "^1.8.5",
     "@splidejs/react-splide": "^0.7.10",
