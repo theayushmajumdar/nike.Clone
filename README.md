@@ -38,9 +38,10 @@ Once logged in, create a new project in the Auth0 dashboard.
 2. Follow the instructions provided by Auth0 to configure your project settings, including setting up your application's callback URLs and allowed origins.
 3. Install the Auth0 React SDK in your project by running:
 
-   ```bash
+ ```bash
    npm install @auth0/auth0-react
 ```
+or
 ```bash
 yarn add @auth0/auth0-react
 ```
