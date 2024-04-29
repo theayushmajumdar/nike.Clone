@@ -41,12 +41,15 @@ Once logged in, create a new project in the Auth0 dashboard.
    ```bash
 Copy code
 npm install @auth0/auth0-react
+
 ```
+
 or
 
 ```bash
 Copy code
 yarn add @auth0/auth0-react
+
 ```
 Integrate Auth0 authentication into your React components using the provided SDK methods, such as useAuth0 hook for accessing authentication state and methods like login and logout.
 ## Getting Started
