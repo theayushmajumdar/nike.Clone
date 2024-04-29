@@ -39,9 +39,8 @@ Once logged in, create a new project in the Auth0 dashboard.
 3. Install the Auth0 React SDK in your project by running:
 
    ```bash
-npm install @auth0/auth0-react
+   npm install @auth0/auth0-react
 ```
-or
 ```bash
 yarn add @auth0/auth0-react
 ```
