@@ -4,13 +4,11 @@ import { selectTotalQTY, setOpenCart } from '../app/CartSlice.js';
 
 import { HeartIcon, MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo.png';
-import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
     const [navState, setNavState] = useState(false);
     const dispatch = useDispatch();
     const totalQTY = useSelector(selectTotalQTY);
-    const { user, loginWithRedirect , isAuthenticated , logout } = useAuth0();
 
     const onCartToggle = () => {
         dispatch(setOpenCart({
@@ -47,20 +45,7 @@ return (
             </div>
             
             <ul className='flex items-center justify-center gap-2'>
-                <li>
-                    {isAuthenticated && <p>{user.name}</p>}
-                </li>
-            {isAuthenticated ? (
-                <li>
-                <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-md mr-2">
-                Log Out
-                </button>
-            </li>
-            ) : (
-                <li>
-                <button onClick={() => loginWithRedirect()} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md mr-2">Log In</button>
-                </li>
-            )}
+               
 
 
                
